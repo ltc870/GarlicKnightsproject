@@ -1,0 +1,73 @@
+/* CSS RESET */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* TYPOGRAPHY */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  color: #FFFFFF;
+}
+
+.header-title {
+  font-size: 3em;
+  letter-spacing: 3px;
+}
+
+/* LAYOUT */
+
+/* header section */
+.header {
+  background-image: url("../img/overbookbackground2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center 10%; */
+  padding: 10em;
+}
+
+.header-text {
+  margin-top: 0;
+}
+
+/* main section */
+.main-img-container {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  text-align: center;
+}
+
+.main-img {
+  width: 15%;
+}
+
+.img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* footer section */
+.footer {
+  background-color: #ADD8E6;
+  padding: .75em;
+}
+
+.footer-text {
+  margin: 0;
+  text-align: left;
+}

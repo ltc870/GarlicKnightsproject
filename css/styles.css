@@ -62,9 +62,15 @@ body {
   font-weight: bold;
 }
 
-.video{
-  width: 600px;
-  height: 425px;
+.video {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.video:hover,
+.video:focus {
+  color: #60BFDE;
 }
 
 .main-img-container {

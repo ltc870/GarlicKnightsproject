@@ -62,6 +62,11 @@ body {
   font-weight: bold;
 }
 
+.video{
+  width: 600px;
+  height: 425px;
+}
+
 .main-img-container {
   display: flex;
   justify-content: center;

@@ -123,22 +123,54 @@ This is how you would use the <nav> tag. The nav tag will let screen readers kno
 ## Semantic elements
 
 Semantic elements clearly describes its meaning to both the browser and the developer.
-Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
-Examples of semantic elements: <header> <nav> <footer> - These will clearly define the contents nested within them.
+Examples of non-semantic elements: `<div>` and `<span>` - Tells nothing about its content.
+Examples of semantic elements: `<header>` `<nav>` `<footer>` - These will clearly define the contents nested within them.
 
-- <article>
-- <aside>
-- <figcaption>
-- <figure>
-- <footer>
-- <header>
-- <main>
-- <mark>
-- <nav>
-- <section>
-- <summary>
-- <time>
+- `<article>`
+- `<aside>`
+- `<figcaption>`
+- `<figure>`
+- `<footer>`
+- `<header>`
+- `<main>`
+- `<mark>`
+- `<nav>`
+- `<section>`
+- `<summary>`
+- `<time>`
 
 These elements also help screen readers let the user know where they're at on the page, especially if they are visually impaired and they utilize screen readers. Look up "accessability" to learn more. It's a lot, but it's worth learning about if you ever plan on doing custom work for people and don't want to get sued.
 
-I try to use semantic HTML when possible, especially when using <header> <section> <nav> <footer> and <aside>. If you plan on using a <div>, think about the section you're creating. If the section can fit into one of the aforementioned elements, then go with those elements. I use <div>s when I can't think of any other element to use.
+I try to use semantic HTML when possible, especially when using `<header>` `<section>` `<nav>` `<footer>` and `<aside>`. If you plan on using a `<div>`, think about the section you're creating. If the section can fit into one of the aforementioned elements, then go with those elements. I use `<div>`s when I can't think of any other element to use.
+
+## Headings
+
+Your `<h1>` - `<h6>` tags are your headings tags to your various sections. Every website is going to have at least an `<h1>` to `<h3>` tag. `<h1>` is always the main heading tag in each website. You will only ever have 1 `<h1>` tag. Then you can think of your `<h2>` tags as subtitles. Within those subtitles, the different sections may have an `<h3>` tag. Here is an example:
+
+```html
+<h1>Welcome To My Webpage (main title)</h1>
+
+<section>
+  <h2>Here is a subtitle of my website</h2>
+  <div>
+    <h3>This is a third level title</h3>
+    <!-- content will go here -->
+  </div>
+  <div>
+    <h3>Another third level title</h3>
+    <!-- content will go here -->
+  </div>
+</section>
+
+<section>
+  <h2>Here is a subtitle of my website</h2>
+  <div>
+    <h3>This is a third level title</h3>
+    <!-- content will go here -->
+  </div>
+  <div>
+    <h3>Another third level title</h3>
+    <!-- content will go here -->
+  </div>
+</section>
+```

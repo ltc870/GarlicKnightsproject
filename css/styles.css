@@ -107,6 +107,12 @@ body {
   font-style: italic;
 }
 
+/* design artifacts section */
+.artifacts-section{
+  text-align: left;
+  padding: 5px;
+}
+
 /* footer section */
 .footer {
   background-color: #ADD8E6;

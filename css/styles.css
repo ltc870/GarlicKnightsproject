@@ -107,6 +107,18 @@ body {
   font-style: italic;
 }
 
+/* design artifacts section */
+.artifacts-section{
+  text-align: left;
+  padding: 5px;
+}
+
+.img-persona{
+  width: 10%;
+  height: 20%;
+  object-fit: cover;
+}
+
 /* footer section */
 .footer {
   background-color: #ADD8E6;

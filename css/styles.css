@@ -91,6 +91,10 @@ body {
   border-radius: 10px;
 }
 
+.morrie_img {
+  width: 40%;
+}
+
 /* interview section */
 .interview-questions {
   text-align: left;

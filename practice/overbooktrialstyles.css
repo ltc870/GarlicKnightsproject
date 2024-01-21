@@ -1,0 +1,19 @@
+.header {
+    background-image: url("../GarlicKnights_Project/GarlicKnightsproject/img/overbookbackground2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center 10%; */
+    padding: 10em;
+    color: white;
+    text-align: center;
+  }
+
+.header-text{
+    font-size: medium;
+    letter-spacing: 3px;
+}
+
+.main-section{
+    padding: 10px;
+}
+

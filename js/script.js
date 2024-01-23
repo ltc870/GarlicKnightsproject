@@ -3,6 +3,7 @@ $(document).ready(function() {
     alert('jquery loaded');
 });
 */
+
 var text;
 function search() {
     let ele = document.getElementsByName('subject');
@@ -61,7 +62,7 @@ $(document).ready(function() {
 });
 
 
-/*
+
 $("#lead-banner");  //grab lead wrapped in jquery wrapper
 $("#lead-banner p"); //grab banner p tags and put in jquery array
 

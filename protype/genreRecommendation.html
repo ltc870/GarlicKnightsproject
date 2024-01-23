@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Garlic Knights Group Project</title>
-        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="../css/styles.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -20,24 +20,24 @@
         </header>
         <main class="main">
             <div class ="subject" id="subject">
-            <p> Choose your favroite season: </p>  
+            <h2> Choose your favorite genre and receive your cusom recommendation: </h2>  
                 <input type="radio" name="subject" id="fantasy" value="fantasy.json">Fantasy<br>   
                 <input type="radio" name="subject" id="horror" value="horror.json">Horror<br>   
                 <input type="radio" name="subject" id="humor" value="humor.json">Humor<br>  
-                <input type="radio" name="subject" id="science fiction" value="science_fiction.json">Science Fiction<br>  
-            </div>
-            <button id="button" onclick = "search()">Find Your Next Book!</button>
-            <div id = "title1">
-                Title:
+                <input type="radio" name="subject" id="science fiction" value="science_fiction.json">Science Fiction<br>
 
+                <input type="radio" name="subject" id="fiction" value="fiction.json">Fiction<br>   
+                <input type="radio" name="subject" id="thriller" value="thriller.json">Thriller<br>   
+                <input type="radio" name="subject" id="Science and Mathematics" value="sciencemathematics.json">Science and Mathematics<br>  
+                <input type="radio" name="subject" id="Business and Finance" value="business.json">Business and Finance<br> 
             </div>
-            <div id = "title2">
-                Title:
-                
-            </div>
-            <div id = "title3">
-                Title:
-                
+            <div>
+            <p>Check box if you would like eBooks only:</p>
+            <input type = "checkbox" id = "checkbox">
+          </div>
+            <button id="button" onclick = "search()">Find Your Next Book!</button>
+            <div id = "output">
+              
             </div>
           
         </main>
@@ -46,8 +46,8 @@
         </footer>
     
    
-    <script src = "script/jQuery.js"></script>
-    <script src = "script/script.js"></script>
+    <script src = "../js/jQuery.js"></script>
+    <script src = "../js/genreRecommendationScript.js"></script>
 </body>
 
 </html>

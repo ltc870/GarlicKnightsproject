@@ -1,0 +1,11 @@
+{
+  "name": "garlicknightsproject",
+  "version": "1.0.0",
+  "description": "Team project from Bellarmine University's CS-400-ON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

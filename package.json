@@ -4,7 +4,7 @@
   "description": "Team project from Bellarmine University's CS-400-ON",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",

@@ -4,16 +4,11 @@
   "description": "Team project from Bellarmine University's CS-400-ON",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "fetch-mock": "^9.11.0",
     "jest": "^29.7.0"
-  },
-  "dependencies": {
-    "jest-environment-jsdom": "^29.7.0",
-    "jsdom": "^24.0.0"
   }
 }

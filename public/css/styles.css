@@ -1,0 +1,135 @@
+/* CSS RESET */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* TYPOGRAPHY */
+body {
+  font-family: 'Domine', sans-serif;
+}
+
+.header {
+  color: #FFFFFF;
+}
+
+.header-title {
+  font-size: 5rem;
+  letter-spacing: 3px;
+}
+
+.header-text {
+  font-size: 2.75rem;
+}
+
+/* LAYOUT */
+
+/* header section */
+.header {
+  background-image: url("../../img/overbookbackground2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center 10%; */
+  padding: 10em;
+}
+
+.header-text {
+  margin-top: 0;
+}
+
+/* main section */
+.main-section-one-text {
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+
+.main-section-two {
+  margin-top: 7em;
+}
+
+.main-video {
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.link:hover,
+.link:focus {
+  color: #60BFDE;
+}
+
+.main-img-container {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  text-align: center;
+}
+
+.main-img {
+  width: 15%;
+}
+
+.img {
+  width: 100%;
+  height: 45%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.morrie_img {
+  width: 40%;
+}
+
+/* interview section */
+.interview-questions {
+  text-align: left;
+  padding: 0 1em;
+}
+.question-answer-container {
+  margin-bottom: 2em;
+}
+.interview-question {
+  font-weight: bold;
+}
+
+.interview-answer {
+  font-style: italic;
+}
+
+/* design artifacts section */
+.artifacts-section{
+  text-align: left;
+  padding: 5px;
+}
+
+.img-persona{
+  width: 10%;
+  height: 20%;
+  object-fit: cover;
+}
+
+/* footer section */
+.footer {
+  background-color: #ADD8E6;
+  padding: .75em;
+  margin-top: 5em;
+}
+
+.footer-text {
+  margin: 0
+}
